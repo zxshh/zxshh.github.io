@@ -1,0 +1,16 @@
+name: Engineering
+title: 工程工具
+subtitle: MATLAB、Simulink、ROS 2 与 Linux
+tags: 工程工具
+icon: /assets/site/wiki-cover.svg
+cover: /assets/site/wiki-cover.svg
+description: 工具使用、环境部署、维护、仿真与工程复现方法。
+base_dir: /wiki/engineering/
+search:
+  filter: /wiki/engineering/
+  placeholder: 在工程工具中搜索...
+leftbar: [tree, tagtree, related]
+tree:
+  入门:
+    - index
+

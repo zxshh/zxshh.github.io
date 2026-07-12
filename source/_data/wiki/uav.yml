@@ -1,0 +1,16 @@
+name: UAV
+title: 无人机
+subtitle: 飞行力学、规划与控制
+tags: 无人机
+icon: /assets/site/wiki-cover.svg
+cover: /assets/site/wiki-cover.svg
+description: 无人机建模、飞行力学、制导导航控制与轨迹规划笔记。
+base_dir: /wiki/uav/
+search:
+  filter: /wiki/uav/
+  placeholder: 在无人机知识库中搜索...
+leftbar: [tree, tagtree, related]
+tree:
+  入门:
+    - index
+

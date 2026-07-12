@@ -1,0 +1,87 @@
+# Hexo site configuration
+# Documentation: https://hexo.io/docs/configuration.html
+
+# Site
+title: zxsの小屋
+subtitle: 不再虚度时间
+description: 记录控制、机器人、无人机、嵌入式与软件工程学习过程的个人知识库
+keywords:
+  - 控制理论
+  - 机器人学
+  - 无人机
+  - 嵌入式
+  - MATLAB
+  - ROS
+  - C++
+author: zxs
+language: zh-CN
+timezone: Asia/Shanghai
+avatar: /assets/site/avatar.jpg
+favicon: /assets/site/avatar.jpg
+
+# URL
+url: https://zxshh.github.io
+permalink: :year/:month/:day/:title/
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+
+# Writing
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+
+# Syntax highlighting
+syntax_highlighter: highlight.js
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# Home, category, archive and pagination
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+default_category: uncategorized
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: date
+per_page: 10
+pagination_dir: page
+
+# Theme
+theme: stellar
+
+# Markdown renderer
+# Keep Pandoc available on PATH locally and in GitHub Actions.
+pandoc:
+  pandocPath: pandoc
+  timeout: 10000
+  args:
+    - "-f"
+    - "gfm"
+    - "-t"
+    - "html"
+    - "--mathjax"
+

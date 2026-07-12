@@ -1,0 +1,16 @@
+name: Embedded
+title: 嵌入式系统
+subtitle: MCU、RTOS、通信与调试
+tags: 嵌入式
+icon: /assets/site/wiki-cover.svg
+cover: /assets/site/wiki-cover.svg
+description: 嵌入式软硬件、实时系统、驱动、通信和调试方法笔记。
+base_dir: /wiki/embedded/
+search:
+  filter: /wiki/embedded/
+  placeholder: 在嵌入式知识库中搜索...
+leftbar: [tree, tagtree, related]
+tree:
+  入门:
+    - index
+

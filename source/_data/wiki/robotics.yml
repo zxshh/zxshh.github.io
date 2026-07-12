@@ -1,0 +1,16 @@
+name: Robotics
+title: 机器人学
+subtitle: 运动学、动力学、规划与控制
+tags: 机器人学
+icon: /assets/site/wiki-cover.svg
+cover: /assets/site/wiki-cover.svg
+description: 机器人运动学、动力学、规划、控制、定位与建图笔记。
+base_dir: /wiki/robotics/
+search:
+  filter: /wiki/robotics/
+  placeholder: 在机器人学中搜索...
+leftbar: [tree, tagtree, related]
+tree:
+  入门:
+    - index
+

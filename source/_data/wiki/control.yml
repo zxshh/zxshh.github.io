@@ -1,0 +1,23 @@
+name: Control
+title: 控制理论
+subtitle: 从经典控制到现代控制与优化
+tags: 控制理论
+icon: /assets/site/wiki-cover.svg
+cover: /assets/site/wiki-cover.svg
+description: 自动控制、现代控制、优化、系统辨识与状态估计的系统笔记。
+base_dir: /wiki/control/
+search:
+  filter: /wiki/control/
+  placeholder: 在控制理论中搜索...
+leftbar:
+  - tree
+  - tagtree
+  - related
+tree:
+  入门:
+    - index
+  自动控制原理:
+    - automatic-control/higher-order-response
+  数学与优化基础:
+    - optimization/overview
+

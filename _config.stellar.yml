@@ -1,0 +1,71 @@
+# Stellar overrides only. Unspecified values inherit from the installed theme.
+
+logo:
+  avatar: '[{config.avatar}](/about/)'
+  title: '[{config.title}](/)'
+  subtitle: '{config.subtitle}'
+
+menubar:
+  columns: 4
+  items:
+    - id: post
+      theme: '#1BCDFC'
+      icon: solar:documents-bold-duotone
+      title: 博客
+      url: /
+    - id: wiki
+      theme: '#3DC550'
+      icon: solar:notebook-bookmark-bold-duotone
+      title: 文档
+      url: /wiki/
+    - id: notebooks
+      theme: '#FA6400'
+      icon: solar:planet-bold-duotone
+      title: 笔记
+      url: /notebooks/
+    - id: social
+      theme: '#F44336'
+      icon: solar:chat-square-like-bold-duotone
+      title: 友链
+      url: /friends/
+
+article:
+  type: tech
+  license: '本文采用 [署名-非商业性使用-相同方式共享 4.0 国际](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议，转载请注明出处。'
+  share: [wechat, email, link]
+
+comments:
+  service: giscus
+  comment_title: 欢迎交流与指正
+  giscus:
+    src: https://giscus.app/client.js
+    data-repo: zxshh/zxshh.github.io
+    data-repo-id: R_kgDOPrAbgQ
+    data-category: Announcements
+    data-category-id: DIC_kwDOPrAbgc4C5aQB
+    data-mapping: pathname
+    data-strict: 0
+    data-reactions-enabled: 1
+    data-emit-metadata: 0
+    data-input-position: top
+    data-theme: preferred_color_scheme
+    data-lang: zh-CN
+    crossorigin: anonymous
+
+plugins:
+  tianli_gpt:
+    enable: false
+  mathjax:
+    v3: true
+    js: https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+  copycode:
+    enable: true
+    default_text: Copy
+    success_text: Copied
+    toast: 复制成功
+
+footer:
+  content: |
+    本站由 [{author.name}](/about/) 使用 [{theme.name} {theme.version}]({theme.tree}) 构建。
+    除特别声明外，内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可协议。
+

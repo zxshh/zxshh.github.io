@@ -1,0 +1,8 @@
+name: research
+title: 科研杂记
+description: 记录日常实验数据、推导灵感与踩坑记录
+base_dir: /notes/research/
+
+sort: 1
+per_page: 10
+order_by: -updated

@@ -1,0 +1,16 @@
+name: Computer Science
+title: 计算机基础
+subtitle: C++、算法与软件工程
+tags: 计算机基础
+icon: /assets/site/wiki-cover.svg
+cover: /assets/site/wiki-cover.svg
+description: C++、数据结构、算法、LeetCode 与软件工程笔记。
+base_dir: /wiki/computer-science/
+search:
+  filter: /wiki/computer-science/
+  placeholder: 在计算机基础中搜索...
+leftbar: [tree, tagtree, related]
+tree:
+  入门:
+    - index
+
