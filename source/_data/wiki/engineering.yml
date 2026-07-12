@@ -11,6 +11,14 @@ search:
   placeholder: 在工程工具中搜索...
 leftbar: [tree, tagtree, related]
 tree:
-  入门:
+  学习路径:
     - index
-
+  Git 与版本控制:
+    - git/01-mental-model-and-daily-workflow
+    - git/02-branches-and-recovery
+  Node、npm 与 npx:
+    - node/01-node-npm-npx
+  GitHub Actions:
+    - github-actions/01-pages-workflow
+  网站发布实战:
+    - website/01-publish-content
