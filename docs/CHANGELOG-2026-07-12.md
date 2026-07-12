@@ -14,10 +14,9 @@
 - 建立 `source/assets/` 资源规范，并将个人头像与控制系统插图迁移为本地文件。
 - 增加 README、写作规范和维护手册。
 
-## 仍需在线完成的操作
+## 已完成的远程迁移
 
-- 将当前远程静态站 `main` 备份为 `legacy-static-20260712`。
-- 将本地整理后的源码提交到远程 `main`。
-- 在 GitHub 仓库 Settings → Pages 中选择 GitHub Actions。
-- 确认首次 Actions 构建成功并检查线上页面。
-
+- 原静态站 `main` 已备份到 `legacy-static-20260712` 分支。
+- Hexo 源码迁移提交已推送到 `main`：`e37bfad`。
+- GitHub Pages 已切换为 GitHub Actions 工作流发布。
+- 首次手动发布工作流已成功完成，线上首页返回 HTTP 200 并加载本地头像资源。
